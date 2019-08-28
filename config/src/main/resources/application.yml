@@ -1,0 +1,16 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: config
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:/config
+    zookeeper:
+      connect-string: 192.168.110.128:2185
+      discovery:
+        register: true
