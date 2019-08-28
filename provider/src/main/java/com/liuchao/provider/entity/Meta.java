@@ -1,8 +1,5 @@
-package com.liuchao.commonutil.entity;
+package com.liuchao.provider.entity;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Meta {
     private String href;
     private String icon;
